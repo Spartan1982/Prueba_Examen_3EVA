@@ -22,9 +22,13 @@ namespace Prueba_Examen_3EVA.Servicios
             return opcionUsuario;
             
     }
-
-        public int mostrarMenuSeleccion()
+        public static mostrarMenuEmpleado()
         {
-        }    
+
+        }
+        public void mostrarMenuGerencia()
+        {
+
+        }
     }
 }
