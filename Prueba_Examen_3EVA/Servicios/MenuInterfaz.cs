@@ -9,5 +9,7 @@ namespace Prueba_Examen_3EVA.Servicios
     internal interface MenuInterfaz
     {
         public int mostrarMenuSeleccion();
+
+        public int mostrarMenuEmpleado();
     }
 }

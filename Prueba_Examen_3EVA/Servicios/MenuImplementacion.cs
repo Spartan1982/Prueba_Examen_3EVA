@@ -22,13 +22,19 @@ namespace Prueba_Examen_3EVA.Servicios
             return opcionUsuario;
             
     }
-        public static mostrarMenuEmpleado()
+        public int mostrarMenuEmpleado()
         {
+            int opcionMenuempleado;
+            Console.WriteLine("0.Se cierra el menu");
+            Console.WriteLine("1.Añadir ventas");
+            Console.WriteLine("2.Calculo fecha por ventas");
+            Console.WriteLine("Elija una opcion");
+            Console.WriteLine("Opcion erronea");
+            opcionMenuempleado=Convert.ToInt32(Console.ReadLine()); 
+            return opcionMenuempleado;
+
 
         }
-        public void mostrarMenuGerencia()
-        {
-
-        }
+        
     }
 }

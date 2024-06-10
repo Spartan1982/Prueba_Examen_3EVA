@@ -30,11 +30,11 @@ namespace Prueba_Examen_3EVA.Controladores
                     case 1:
                         Console.WriteLine("Menu EMPLEADO");
                         
-                        mi.mostrarMenuEmpleado();
+                        ei.mostrarMenuEmpleado(listaVentas);
                             break;
                     case 2:
                         Console.WriteLine("Menu GERENCIA");
-                        mi.mostrarMenuGerencia();
+                        gi.mostrarMenuGerencia();
                         break;
                     default:
                         Console.WriteLine("Opcion erronea");

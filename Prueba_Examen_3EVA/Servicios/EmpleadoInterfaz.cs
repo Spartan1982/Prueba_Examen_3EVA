@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prueba_Examen_3EVA.Dtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace Prueba_Examen_3EVA.Servicios
 {
     internal interface EmpleadoInterfaz
     {
-        public void mostrarMenuEmpleado();
+        public void mostrarMenuEmpleado(List<VentaDto> listaVentas);
     }
 }
