@@ -41,7 +41,7 @@ namespace Prueba_Examen_3EVA.Servicios
             int opcionMenuGerencia;
             Console.WriteLine("0.Se cierra menu");
             Console.WriteLine("1.Mostrar ventas del dia");
-            Console.WriteLine("Crear nuevo pedido");
+            Console.WriteLine("2.Crear nuevo pedido");
             Console.WriteLine("Opcion erronea");
             opcionMenuGerencia=Convert.ToInt32(Console.ReadLine()); 
 

@@ -16,7 +16,7 @@ namespace Prueba_Examen_3EVA.Dtos
         public long IdProducto { get => idProducto; set => idProducto = value; }
         public string NombreProducto { get => nombreProducto; set => nombreProducto = value; }
         public int CantidadProducto { get => cantidadProducto; set => cantidadProducto = value; }
-        public string FchEntera { get => fchEntrega; set => fchEntrega = value; }
+        public string FchEntrega { get => fchEntrega; set => fchEntrega = value; }
 
         override
 

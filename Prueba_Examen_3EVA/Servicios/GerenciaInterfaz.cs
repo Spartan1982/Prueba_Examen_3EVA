@@ -9,8 +9,11 @@ namespace Prueba_Examen_3EVA.Servicios
 {
     internal interface GerenciaInterfaz
     {
-        public void mostrarMenuGerencia();
+        public void mostrarMenuGerencia(List<VentaDto> listaVentas, List<ProductoDto> listaPedido);
 
-        public void crearcontenido(List<VentaDto> listaVentas, string fechaConsulta);
+
+        public void crearFicheroVenta(List<VentaDto> listaVentas);
+
+        public void crearNuevoPedido(List<ProductoDto> listaPedido);
     }
 }

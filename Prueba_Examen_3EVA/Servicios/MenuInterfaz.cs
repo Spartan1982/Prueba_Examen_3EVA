@@ -11,5 +11,7 @@ namespace Prueba_Examen_3EVA.Servicios
         public int mostrarMenuSeleccion();
 
         public int mostrarMenuEmpleado();
+
+        public int mostrarMenuGerencia();
     }
 }

@@ -10,6 +10,7 @@ namespace Prueba_Examen_3EVA.Controladores
         public static void Main(string[] args)
         {
             List<VentaDto > listaVentas = new List<VentaDto>();
+            List<ProductoDto> listaPedidos = new List<ProductoDto>();
 
             MenuInterfaz mi = new MenuImplementacion();
             EmpleadoInterfaz ei = new EmpleadoImplementacion();
@@ -34,7 +35,7 @@ namespace Prueba_Examen_3EVA.Controladores
                             break;
                     case 2:
                         Console.WriteLine("Menu GERENCIA");
-                        gi.mostrarMenuGerencia();
+                        gi.mostrarMenuGerencia(listaVentas, listaPedidos);
                         break;
                     default:
                         Console.WriteLine("Opcion erronea");
